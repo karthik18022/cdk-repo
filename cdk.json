@@ -59,6 +59,17 @@
     "@aws-cdk/aws-rds:auroraClusterChangeScopeOfInstanceParameterGroupWithEachParameters": true,
     "@aws-cdk/aws-appsync:useArnForSourceApiAssociationIdentifier": true,
     "@aws-cdk/aws-rds:preventRenderingDeprecatedCredentials": true,
-    "@aws-cdk/aws-codepipeline-actions:useNewDefaultBranchForCodeCommitSource": true
+    "@aws-cdk/aws-codepipeline-actions:useNewDefaultBranchForCodeCommitSource": true,
+    "globals": {
+      "appName": "ts-lambda",
+      "region": "us-east-1"
+    },
+    "environments" :[
+      {
+        "accountNumber": "246552056558",
+        "environment": "development",
+        "branchName": "development"
+      }
+    ]
   }
 }
